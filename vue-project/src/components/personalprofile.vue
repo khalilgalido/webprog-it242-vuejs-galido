@@ -355,6 +355,6 @@
         <p>&copy; 2026 Khalil Galido MIDTERM WEBPROG PROJECT.</p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
