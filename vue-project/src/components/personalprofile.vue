@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalil's Portfolio</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">RKSG :3</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li class="nav-item"><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="text-side">
+                    <div class="mini-tagline">
+                        <span class="line"></span> PROFESSIONAL & LAZY
+                    </div>
+                    <h1 class="hero-name">
+                        <span class="top-text">MY NAME IS</span><br>
+                        <span class="bottom-text">KHALIL</span>
+                    </h1>
+                    <p class="hero-description">
+                        Hello! I am an Information Technology student and a self-proclaimed lazy developer. 
+                        I focus on finding the most efficient solutions to complex problems.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/rei.sales" target="_blank" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/khalilgalido" target="_blank" data-tooltip="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/khalil-galido-266030369/" target="_blank" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="img-side">
+                    <img src="image/nobg1.png" alt="Profile" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h1 class="section-title">Education</h1>
+            
+            <div class="pill-timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-row left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">September 2024</div>
+                    <div class="timeline-pill">
+                        <h3>Asia Pacific College</h3>
+                        <h4>Bachelor of Science</h4>
+                        <p>in Information Technology</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="image/Asia_Pacific_College_Logo(2).png" alt="APC">
+                    </div>
+                </div>
+
+                <div class="timeline-row right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">August 2020</div>
+                    <div class="timeline-pill">
+                        <h3>Don Bosco Technical Institute</h3>
+                        <h4>STEM Strand</h4>
+                        <p>Graduated with Honors</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="image/db.png" alt="Don Bosco">
+                    </div>
+                </div>
+
+                <div class="timeline-row left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2016</div>
+                    <div class="timeline-pill">
+                        <h3>Thy Covenant Montessorri</h3>
+                        <h4>Secondary Education</h4>
+                        <p>With Honors</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="image/tcms.png" alt="TCMS">
+                    </div>
+                </div>
+
+                <div class="timeline-row right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">June 2014</div>
+                    <div class="timeline-pill">
+                        <h3>PNOWA CLC</h3>
+                        <h4>Elementary Diploma</h4>
+                        <p>With Honors</p>
+                    </div>
+                    <div class="timeline-img">
+                        <img src="image/pnowa.png" alt="PNOWA">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="gallery" class="section">
+    <div class="container">
+        <h1 class="section-title">Gallery</h1>
+
+        <div class="filter-container text-center mb-5">
+            <button class="btn btn-custom-filter active" data-filter="cat-me">Me</button>
+            <button class="btn btn-custom-filter" data-filter="cat-girl">Me n My Girl</button>
+            <button class="btn btn-custom-filter" data-filter="cat-fam">Me w The Fam</button>
+            <button class="btn btn-custom-filter" data-filter="cat-bois">Me n The bois</button>
+        </div>
+
+        <div class="gallery-flex-container">
+
+            <div class="gallery-item cat-me">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/me1.jpg">
+                        <img src="image/me1.jpg" alt="Me 1">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-me">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/me2.jpg">
+                        <img src="image/me2.jpg" alt="Me 2">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-me">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/me3.jpeg">
+                        <img src="image/me3.jpeg" alt="Me 3">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-me">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/mr4.jpeg">
+                        <img src="image/mr4.jpeg" alt="Me 4">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="gallery-item cat-girl hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/mygirl1.jpg">
+                        <img src="image/mygirl1.jpg" alt="Girl 1">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-girl hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/mygirl2.jpg">
+                        <img src="image/mygirl2.jpg" alt="Girl 2">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-girl hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/mygirl3.jpeg">
+                        <img src="image/mygirl3.jpeg" alt="Girl 3">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-girl hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/mygirl4.jpeg">
+                        <img src="image/mygirl4.jpeg" alt="Girl 4">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="gallery-item cat-fam hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/fam1.jpg">
+                        <img src="image/fam1.jpg" alt="Fam 1">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-fam hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/fam2.jpg">
+                        <img src="image/fam2.jpg" alt="Fam 2">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-fam hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/fam3.jpg">
+                        <img src="image/fam3.jpg" alt="Fam 3">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-fam hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/fam4.jpeg">
+                        <img src="image/fam4.jpeg" alt="Fam 4">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="gallery-item cat-bois hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/bois1.jpg">
+                        <img src="image/bois1.jpg" alt="Bois 1">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-bois hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/bois2.jpg">
+                        <img src="image/bois2.jpg" alt="Bois 2">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-bois hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/bois3.jpeg">
+                        <img src="image/bois3.jpeg" alt="Bois 3">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item cat-bois hide">
+                <div class="gallery-wrap">
+                    <a href="javascript:void(0)" class="gallery-popup-link" data-src="image/bois4.jpeg">
+                        <img src="image/bois4.jpeg" alt="Bois 4">
+                        <div class="overlay"><i class="fas fa-search"></i></div>
+                    </a>
+                </div>
+            </div>
+
+        </div> </div>
+
+    <div id="customModal" class="lightbox-modal">
+        <span class="close-modal">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" alt="">
+    </div>
+</section>
+
+<section id="hobbies" class="section">
+    <div class="container">
+        <h1 class="section-title">Hobbies & Interests</h1>
+        
+        <div class="hobbies-list">
+            
+            <div class="hobby-card">
+                <div class="icon-box">
+                    <i class="fas fa-basketball-ball"></i>
+                </div>
+                <h3>Basketball</h3>
+                <p>
+                    I'm a very active person, because I came from a sporty family, both my parents were
+                    professional athletes during their time, so it just comes naturally for me to be enthusiast to it.
+                    I can play many sports but BASKETBALL just hits differently for me. My favorite player is LEBONBON
+                </p>
+            </div>
+
+            <div class="hobby-card">
+                <div class="icon-box">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Gaming</h3>
+                <p>
+                   It may be a typical guy’s hobby, but it truly is a one-of-a-kind experience. 
+                   Imagine finishing every school tasks, and every chores, 
+                   and this is your ending...You and a the GAME Sheesh goosebumps baby. 
+                   I don't have a favorite game, though. As I age, 
+                   I'm beginning to see gaming merely as a way to pass time.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="resources" class="section">
+    <div class="container">
+        
+        <div class="resources-header">
+            <h1 class="section-title">Resources</h1>
+            <span class="header-line"></span>
+        </div>
+
+        <div class="resources-grid">
+            
+            <div class="resource-item">
+                <a href="https://www.canva.com" target="_blank" class="resource-link">Canva</a> 
+                - For background designs and creative assets.
+            </div>
+
+            <div class="resource-item">
+                <a href="https://github.com" target="_blank" class="resource-link">GitHub</a> 
+                - Platform for version control and code collaboration.
+            </div>
+
+            <div class="resource-item">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="resource-link">HTML</a> 
+                - The standard markup language for creating web pages.
+            </div>
+
+            <div class="resource-item">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="resource-link">CSS</a> 
+                - Style sheet language used for describing the presentation.
+            </div>
+
+            <div class="resource-item">
+                <a href="https://gemini.google.com" target="_blank" class="resource-link">Gemini</a> 
+                - AI code assistance and problem solving.
+            </div>
+
+            <div class="resource-item">
+                <a href="https://websitesetup.org" target="_blank" class="resource-link">WebsiteSetup</a> 
+                - For website layout sample ideas and guides.
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 Khalil Galido MIDTERM WEBPROG PROJECT.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
