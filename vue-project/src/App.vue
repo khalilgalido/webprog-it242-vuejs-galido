@@ -20,3 +20,42 @@ onMounted(() => {
    getInstruments()
 })
 </script>
+
+<template>
+  <div class="container">
+    <h1>My Instruments</h1>
+    
+    <ul>
+      <li v-for="instrument in instruments" :key="instrument.id">
+        {{ instrument.name }}
+      </li>
+    </ul>
+
+    <p v-if="instruments.length === 0">Loading instruments...</p>
+  </div>
+</template>
+
+<style>
+/* Basic styling to ensure text is visible */
+.container {
+  padding: 2rem;
+  font-family: sans-serif;
+  color: #333; /* Dark grey text */
+  background-color: #fff; /* White background */
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+</style>
