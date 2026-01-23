@@ -40,12 +40,12 @@ onMounted(() => {
 .container {
   padding: 2rem;
   font-family: sans-serif;
-  color: #333; /* Dark grey text */
+  color: #ffffff; /* Dark grey text */
   background-color: #fff; /* White background */
 }
 
 h1 {
-  color: #000;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
