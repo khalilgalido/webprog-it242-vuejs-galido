@@ -1,9 +1,8 @@
 <template>
   <h1>GoodFood</h1>
-  <PersonalProfile/>
   <comment-form/>
   <comment/>
-   
+  <PersonalProfile/>
 
 </template>
 
