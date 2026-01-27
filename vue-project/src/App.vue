@@ -1,6 +1,6 @@
 <template>
   <h1>GoodFood</h1>
-  <personalprofile/>
+  <PersonalProfile/>
   <comment-form/>
   <comment/>
    

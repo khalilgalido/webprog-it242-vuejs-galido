@@ -8,16 +8,25 @@
       <b>Education / Achievements</b><br>
       <b>Course:</b><br>Information Technology<br><br>
 
-      <b>IT Experience</b><br><br>
+      <b>IT Experience</b><br>
+      <br>
 
-      <b>Hobbies & Interests</b><br><br>
+      <b>Hobbies & Interests</b><br>
+      <br>
 
-      <b>Goals In Life / Dream</b><br><br>
+      <b>Goals In Life / Dream</b><br>
+      <br>
 
       <b>Picture Gallery</b><br>
-      <img src="https://tse3.mm.bing.net/th/id/OIP.czonCC0IfwwC3EVn4piLJgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kirkified YN">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.czonCC0IfwwC3EVn4piLJgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Kirkified YN" width="200">
     </p>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'PersonalProfile'
+}
+</script>
 
 <style src="./css/PersonalProfile.css"></style>
