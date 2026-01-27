@@ -6,15 +6,14 @@
 </template>
 
 <script>
-// 1. IMPORT the component
-// (Make sure the path './components/...' matches your actual folder structure)
+
 import PersonalProfile from './components/PersonalProfile.vue'
-import CommentForm from './components/CommentForm.vue' // Assuming you have this
-import Comment from './components/Comment.vue'         // Assuming you have this
+import CommentForm from './components/CommentForm.vue' 
+import Comment from './components/Comment.vue'         
 
 export default {
   name: 'App',
-  // 2. REGISTER the component so the template can use it
+  
   components: {
     PersonalProfile,
     CommentForm,
@@ -23,6 +22,5 @@ export default {
 }
 </script>
 
-<style>
-/* Your global styles */
+<style>*/
 </style>
