@@ -3,7 +3,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import FoodItemVue from './components/FoodItem.vue'
 import FoodItem2Vue from './components/FoodItem2.vue'
-import Country from './components/Country.vue'
 import CommentForm from './components/CommentForm.vue'
 import personalprofile from './components/personalprofile.vue'
 const app = createApp(App)
